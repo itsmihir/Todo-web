@@ -1,0 +1,106 @@
+body
+{
+    padding-left: 4.8in;
+    margin-top: 0.3in;
+    
+background-color: rgb(23, 53, 82)
+}
+
+.text
+{
+    border-radius: 20%;
+    width:70%;
+    border: 2px solid rgb(148, 226, 231);
+    
+
+}
+.text:focus
+{
+    background-color: lightblue;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif
+}
+button
+{
+    width: 40%;
+    border-radius: 20%;
+    height: 7%;
+}
+button:hover
+{
+    width:42%;
+    border-radius: 20%;
+    height:8%;
+}
+.b1
+{
+    background-color: blue;
+}
+.b2
+{
+    background-color: rgb(231, 48, 48);
+}
+.b3
+{
+    background-color: green;
+}
+.list h2
+{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-shadow: 2px 2px rgb(20, 104, 107); 
+}
+.list form
+{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list form input{
+    
+    font-size: 20px;
+}
+.all
+{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 30px;
+    padding-left: 80px;
+    
+    list-style-type:none;
+}
+
+ul li
+{
+    border: 2px solid rgb(59, 78, 250);
+    border-radius: 10px;
+    margin:5px ;
+    text-align: left;
+    width: 200px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+.mycheck
+{
+    opacity: 1;
+}
+.visual
+{
+    opacity:1;
+
+}
+
+.list
+{
+    text-align:center;
+    
+    width: 45%;
+    height:150%;
+    background-color: white;
+    border:10px solid rgb(26, 183, 211);
+    border-radius: 30px;
+    
+}
