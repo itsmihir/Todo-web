@@ -4,11 +4,11 @@ const app = express();
 var Datastore = require('nedb');
 var dblist = new Datastore('database.db');
 dblist.loadDatabase();
-
+var port = process.env.PORT||8080;
 app.use(express.static('public'));
 app.use(express.json({limit:'3mb'}));
 
-app.listen(8080,()=>console.log('listening at port 8080'));
+app.listen(port,()=>console.log('listening at port 8080'));
 
 app.get('/all',(request,response)=>
 {
